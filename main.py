@@ -35,7 +35,7 @@ with st.sidebar:
     st.write("This is a Deep Learning project using **LSTM (Long Short-Term Memory)** neural networks.")
     st.write("It was trained on 25,000 movie reviews to understand human sentiment.")
     st.markdown("---")
-    st.write("Developed by **You**")
+    st.write("Developed by **Vaibhav**")
 
 
 st.title("🎬 Movie Review Sentiment Analyzer")
