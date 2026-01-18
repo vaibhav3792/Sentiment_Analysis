@@ -24,7 +24,15 @@ word_index, model = load_resources()
 # --- HELPER FUNCTION ---
 def preprocess_text(text):
     words = text.lower().split()
-    encoded_review = [1] + [word_index.get(word, 2) + 3 for word in words]
+    encoded_review = [1] # Start Token
+    for word in words:
+        val = word_index.get(word, 2) + 3
+        
+        if val >= 10000:
+            val = 2
+            
+        encoded_review.append(val)
+    
     padded_review = sequence.pad_sequences([encoded_review], maxlen=500)
     return padded_review
 
