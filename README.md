@@ -3,7 +3,7 @@
 An End-to-End Deep Learning project that classifies movie reviews as **Positive** or **Negative** using an LSTM Neural Network.
 
 ## 🔗 Live Demo
-👉 **[Click here to test the App](https://sentiment-app-live.streamlit.app/)**
+👉 **[Click here to test the App](https://sentimentanalysis-fzxfucap6tfcthmuazbpts.streamlit.app/)**
 
 ## 🛠️ Tech Stack
 * **Frontend:** Streamlit
